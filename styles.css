@@ -3,33 +3,37 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    color: #f8f8f8;
+    color: #410606;
     text-align: center;
     margin: 0;
     padding: 0;
     height: 100vh;
     margin: 0;
-    background-size: cover;
+    background-size: relative;
     background-position: center;
     background-repeat: no-repeat;
     transition: background-image 0.5s ease-in-out;
-    background-image: url("ASS/IMAGE4.jpg");
+    background-image: url("assets/background_card.webp");
     opacity: 30.5; /* 50% transparency */
+
 }
 
+.midd {
+    width: 90px;
+    height: 119px;
+    vertical-align: middle;
+    padding: 2px;
+    border-radius: 50%;
+}
 .invitation-container {
-    width: 70%;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #000;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
 
 }
 
 .header {
-    border-bottom: 5px solid #000;
-    padding-bottom: 15px;
-    margin-bottom: 25px;
+
     font-size: 25px;
 }
 #upperdesigen{
